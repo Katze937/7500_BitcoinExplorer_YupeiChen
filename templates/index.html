@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Blocks</title>
+    <script>
+        async function fetchLatestBlocks() {
+            const response = await fetch('/latest_blocks');
+            const blocks = await response.json();
+            const tbody = document.getElementById('blocks-body');
+            tbody.innerHTML = ''; // Clear existing rows
+            blocks.forEach(block => {
+                const row = `<tr>
+                    <td>${block[0]}</td>
+                    <td>${block[1]}</td>
+                </tr>`;
+                tbody.innerHTML += row;
+            });
+        }
+
+        setInterval(fetchLatestBlocks, 5000); // Fetch every 5 seconds
+    </script>
+</head>
+<body>
+    <h1>Latest Bitcoin Blocks</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Block Height</th>
+                <th>Timestamp</th>
+            </tr>
+        </thead>
+        <tbody id="blocks-body">
+            <!-- Data will be populated here by JavaScript -->
+        </tbody>
+    </table>
+</body>
+</html>
