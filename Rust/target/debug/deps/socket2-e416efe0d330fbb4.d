@@ -1,0 +1,11 @@
+C:\Users\isabe\OneDrive\桌面\7500Project\Bitcoin_New\target\debug\deps\libsocket2-e416efe0d330fbb4.rmeta: C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\lib.rs C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\sockaddr.rs C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\socket.rs C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\utils.rs C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\sys\windows.rs
+
+C:\Users\isabe\OneDrive\桌面\7500Project\Bitcoin_New\target\debug\deps\libsocket2-e416efe0d330fbb4.rlib: C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\lib.rs C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\sockaddr.rs C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\socket.rs C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\utils.rs C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\sys\windows.rs
+
+C:\Users\isabe\OneDrive\桌面\7500Project\Bitcoin_New\target\debug\deps\socket2-e416efe0d330fbb4.d: C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\lib.rs C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\sockaddr.rs C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\socket.rs C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\utils.rs C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\sys\windows.rs
+
+C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\lib.rs:
+C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\sockaddr.rs:
+C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\socket.rs:
+C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\utils.rs:
+C:\Users\isabe\.cargo\registry\src\index.crates.io-6f17d22bba15001f\socket2-0.3.19\src\sys\windows.rs:

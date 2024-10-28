@@ -1,0 +1,13 @@
+prefix=C:\Users\isabe\OneDrive\桌面\7500Project\Bitcoin_New\target\debug\build\libz-sys-612b3157e40235f1\out
+exec_prefix=@exec_prefix@
+libdir=${prefix}/lib
+sharedlibdir=@sharedlibdir@
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.3.1
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
