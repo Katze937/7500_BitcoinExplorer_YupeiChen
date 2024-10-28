@@ -12,8 +12,13 @@
             tbody.innerHTML = ''; // Clear existing rows
             blocks.forEach(block => {
                 const row = `<tr>
-                    <td>${block[0]}</td>
-                    <td>${block[1]}</td>
+                    <td>${block[0]}</td> <!-- Block Height -->
+                    <td>${block[1]}</td> <!-- Timestamp -->
+                    <td>${block[2]}</td> <!-- Transaction Count -->
+                    <td>${block[3]}</td> <!-- Block Size -->
+                    <td>${block[4]}</td> <!-- Fees Collected -->
+                    <td>${block[5]}</td> <!-- Miner Address -->
+                    <td>${block[6]}</td> <!-- Avg Transaction Size -->
                 </tr>`;
                 tbody.innerHTML += row;
             });
@@ -29,6 +34,11 @@
             <tr>
                 <th>Block Height</th>
                 <th>Timestamp</th>
+                <th>Transaction Count</th>
+                <th>Block Size</th>
+                <th>Fees Collected</th>
+                <th>Miner Address</th>
+                <th>Avg Transaction Size</th>
             </tr>
         </thead>
         <tbody id="blocks-body">

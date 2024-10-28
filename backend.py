@@ -18,8 +18,20 @@ def latest_blocks():
     )
     cursor = conn.cursor()
 
-    # Fetch the latest 10 blocks
-    cursor.execute("SELECT block_height, timestamp FROM blocks ORDER BY id DESC LIMIT 10")
+    # Fetch the latest 10 blocks with additional metrics
+    cursor.execute("""
+        SELECT 
+            block_height, 
+            timestamp, 
+            transaction_count, 
+            block_size, 
+            fees_collected, 
+            miner_address, 
+            avg_transaction_size 
+        FROM blocks 
+        ORDER BY id DESC 
+        LIMIT 10
+    """)
     blocks = cursor.fetchall()
 
     cursor.close()
